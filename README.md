@@ -6,10 +6,10 @@
 <h4 align="center">4.National Innovation Center for UHD Video Technology</center></center>
 
 ## Dataset synthesis pipeline
-![](./Figure/syn_pipe.jpg)
+![](./Figure/syn_pipe.png)
 
 ## Framework pipeline
-![](./Figure/framework.jpg)
+![](./Figure/framework.png)
 
 ## Dependencies
 ```
@@ -36,8 +36,8 @@ python evaluate.py
 ```
 
 ## Visual comparison
-![](./Figure/visual.jpg)
-
+![](./Figure/visual_canon.png)
+![](./Figure/visual_sony.png)
 ## Citation
 If you use this code or ideas from the paper for your research, please cite our paper:
 ```
