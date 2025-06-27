@@ -5,7 +5,10 @@
 <h4 align="center">3.Shanghai Jiaotong University,</center></center>
 <h4 align="center">4.National Innovation Center for UHD Video Technology</center></center>
 
-## Pipeline
+## Dataset synthesis pipeline
+![](./Figures/pipeline.jpg)
+
+## Framework pipeline
 ![](./Figures/pipeline.jpg)
 
 ## Dependencies
