@@ -23,7 +23,7 @@ Our SIED dataset is available at [[OneDrive]]() and [[Baidu Yun (extracted code:
 ### SID dataset
 
 ## Pre-trained Models 
-You can download our pre-trained model from [[Google Drive]]() and [[Baidu Yun (extracted code:)]]()
+You can download our pre-trained model from [[OneDrive]]() and [[Baidu Yun (extracted code:)]]()
 
 ## How to train?
 You need to modify ```datasets/dataset.py``` slightly for your environment, and then
