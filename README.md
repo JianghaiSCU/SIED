@@ -26,14 +26,14 @@ Our SIED dataset is available at [[OneDrive]](https://1drv.ms/f/c/e379fe7c770e30
 You can download our pre-trained model from [[OneDrive]]() and [[Baidu Yun (extracted code:)]]()
 
 ## How to train?
-You need to modify ```datasets/dataset.py``` slightly for your environment, and then
+You need to modify ```dataset/dataloader.py``` slightly for your environment, and then
 ```
-python train.py  
+accelerate launch train.py  
 ```
 
 ## How to test?
 ```
-python evaluate.py
+python inference.py
 ```
 
 ## Visual comparison
@@ -42,9 +42,15 @@ python evaluate.py
 ## Citation
 If you use this code or ideas from the paper for your research, please cite our paper:
 ```
-
+@inproceedings{sied,
+  title={Learning to See in the Extremely Dark},
+  author={Jiang, Hai and Guan, Binhao and Liu, Zhen and Liu, Xiaohong and Yu, Jian and Liu, Zheng and Han, Songchen and Liu, Shuaicheng},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={},
+  year={2025}
+}
 ```
 
 ## Acknowledgement
-Part of the code is adapted from previous works: [WeatherDiff](https://github.com/IGITUGraz/WeatherDiffusion) and [MIMO-UNet](https://github.com/chosj95/MIMO-UNet). We thank all the authors for their contributions.
+Part of the code is adapted from the previous work: [denoising-diffusion-pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch). We thank all the authors for their contributions.
 
