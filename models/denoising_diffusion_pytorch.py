@@ -763,12 +763,9 @@ class GaussianDiffusion(Module):
 
     def ccl_loss(self, input_img, gt_img):
 
-        input_img, gt_img = torch.clip(input_img * 255, 0, 255), \
-            torch.clip(gt_img * 255, 0, 255)
-
         obj = ColorHistogramKLLoss()
 
-        loss = obj(input_img, gt_img).abs()
+        loss = obj(input_img, gt_img)
 
         return loss
 
