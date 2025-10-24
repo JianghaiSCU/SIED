@@ -46,7 +46,6 @@ If you use this code or ideas from the paper for your research, please cite our 
     author    = {Jiang, Hai and Guan, Binhao and Liu, Zhen and Liu, Xiaohong and Yu, Jian and Liu, Zheng and Han, Songchen and Liu, Shuaicheng},
     title     = {Learning to See in the Extremely Dark},
     booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision},
-    month     = {October},
     year      = {2025},
     pages     = {7676-7685}
 }
