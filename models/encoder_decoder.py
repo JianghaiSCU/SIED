@@ -303,7 +303,7 @@ class ReconNet(nn.Module):
 
             # ================== high_RAW ==================
             high_raw_pyramid = self.RAW_encoder(high_RAW_img)
-            high_raw_fea_16 = low_raw_pyramid["down16"]
+            high_raw_fea_16 = high_raw_pyramid["down16"]
             high_raw_fea_down16 = torch.sigmoid(self.RAW_channel_down(high_raw_fea_16))
             high_raw_fea_ori = self.RAW_channel_up(high_raw_fea_down16)
             high_raw_img_ori = self.RAW_decoder(high_raw_fea_ori, high_raw_pyramid)
